@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+
+<body>
+  <header>
+    <div class="logo">Nasir Iqbal</div>
+    <nav id="navLinks">
+      <a href="/about.html">About</a>
+      <a href="/skills.html">Skills</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </header>
+    <section class="bio">
+        <div class="container">
+            <h1>I'm Nasir Iqbal, </h1>
+            <h1 id="animated-text">            
+            </h1>
+        </div>
+        <div class="right">
+          <img class="profile" src="" alt="">
+          <div class="button"><a class="btn" href="profile.jpg">
+            see photo
+          </a></div>
+        </div></section>
+<!-- Slider Section -->
+ <hr> <h1 class="my-skills"> My Skills</h1>
+  <section class="slider">
+    <div class="slider-container">
+      <img class="slide active" src="html.jpg" alt="Slide 1" />
+      <img class="slide" src="css.jpg" alt="Slide 2" />
+      <img class="slide" src="mths.jpg" alt="Slide 3" />
+      <button onclick="prevSlide()">❮</button>
+      <button onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+<div class="line"></div>
+        <footer class="footer">
+    <p class="end"> Created by</p>
+    <p class="creater-name"> NASIR IQBAL KHATTAK</p>
+      </footer>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        
+        <script src="script.js"></script>
+
+
+</body>
+
+</html>
